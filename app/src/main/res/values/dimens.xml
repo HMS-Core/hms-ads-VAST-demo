@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="corner_radius">10dp</dimen>
+    <dimen name="tip_text_size">8sp</dimen>
+    <dimen name="desc_text_size">10sp</dimen>
+    <dimen name="detail_text_size">12sp</dimen>
+    <dimen name="title_text_size">12sp</dimen>
+
+    <dimen name="demo_companion_ad_height">60dp</dimen>
+    <dimen name="demo_companion_ad_width">230dp</dimen>>
+</resources>

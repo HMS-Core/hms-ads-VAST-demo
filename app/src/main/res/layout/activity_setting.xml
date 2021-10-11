@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) Huawei Technologies Co., Ltd. 2020-2020. All rights reserved.
+  -->
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="32dp">
+
+        <RadioGroup
+            android:id="@+id/rg_select_video_mode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true" >
+
+            <RadioButton
+                android:id="@+id/rb_custom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Custom player" />
+
+            <RadioButton
+                android:id="@+id/rb_default"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Default player" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btn_linear_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="Show linear ad"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/rg_select_video_mode" />
+
+
+        <Button
+            android:id="@+id/btn_adpods_ad"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show ad pod"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@id/btn_linear_ad" />
+
+        <Button
+            android:id="@+id/btn_launch_fetch_data_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Obtain ad data page"
+            android:textAllCaps="false"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn_adpods_ad" />
+    </RelativeLayout>
+</ScrollView>

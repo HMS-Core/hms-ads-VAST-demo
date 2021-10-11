@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) Huawei Technologies Co., Ltd. 2020-2020. All rights reserved.
+  -->
+
+<resources>
+    <string name="demo_bt_play_video">Play a video.</string>
+    <string name="demo_custom_view_voice">Voice</string>
+    <string name="demo_custom_full_screen">Full-screen</string>
+    <string name="demo_custom_ad_detail">Ad details</string>
+    <string name="demo_custom_skip">Skip</string>
+    <string name="demo_open_default_palyer">Play a linear ad.</string>
+    <string name="demo_open_default_skip_linear_ad">Allow a linear ad to be skippable.</string>
+    <string name="demo_creative_ready_success">The ad asset is ready.</string>
+    <string name="demo_creative_play_finish">The ad playback is complete.</string>
+</resources>

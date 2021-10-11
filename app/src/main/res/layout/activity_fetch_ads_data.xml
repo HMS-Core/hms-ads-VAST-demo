@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright (c) Huawei Technologies Co., Ltd. 2020-2020. All rights reserved.
+  -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btn_fetch_ad_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Obtaining Ad Data"
+        android:textAllCaps="false"
+        android:layout_below="@+id/fl_linear_ad" />
+
+    <Button
+        android:id="@+id/btn_play_ad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Play ads"
+        android:layout_below="@id/btn_fetch_ad_data" />
+
+    <FrameLayout
+        android:id="@+id/fl_linear_ad"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:background="@android:color/black"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true" />
+</RelativeLayout>

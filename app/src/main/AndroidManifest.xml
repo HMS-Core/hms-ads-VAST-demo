@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.huawei.hms.ads.vast.demo">
+
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:label="VastDemo"
+        android:name="com.huawei.hms.ads.vast.demo.DemoApplication"
+        android:resizeableActivity="true"
+        android:supportsPictureInPicture="true"
+        android:supportsRtl="true"
+        android:allowBackup="false"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name="com.huawei.hms.ads.vast.demo.main.SettingActivity"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.huawei.hms.ads.vast.demo.main.LinearAdActivity"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize" />
+        <activity
+            android:name="com.huawei.hms.ads.vast.demo.main.AdsDataLinearAdActivity"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize" />
+        <activity
+            android:name="com.huawei.hms.ads.vast.demo.main.AdPodsActivity"
+            android:theme="@android:style/Theme.Holo.Light.DarkActionBar"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:configChanges="orientation|keyboardHidden|screenSize|screenLayout|smallestScreenSize" />
+    </application>
+</manifest>
