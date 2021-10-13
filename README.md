@@ -1,5 +1,5 @@
 # hms-ads-VAST-demo
-English | [中文](https://github.com/HMS-Core/hms-ads-VAST-demo/README_ZH.md)
+English | [中文](https://github.com/HMS-Core/hms-ads-VAST-demo/edit/master/README_ZH.md)
 ## Table of Contents
 
  * [Introduction](#introduction)
