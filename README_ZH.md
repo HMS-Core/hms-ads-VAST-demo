@@ -1,5 +1,5 @@
 # 华为广告服务VAST协议示例代码
-中文 | [English](https://github.com/HMS-Core/hms-ads-VAST-demo/README.md)
+中文 | [English](https://github.com/HMS-Core/hms-ads-VAST-demo/edit/master/README.md)
 ## 目录
 
  * [简介](#简介)
