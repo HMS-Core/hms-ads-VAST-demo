@@ -24,6 +24,6 @@ android {
 }
 
 dependencies {
-    implementation 'com.huawei.hms:ads-vast-player:3.4.44.302'
-    implementation 'com.huawei.hms:ads-vast:3.4.44.302'
+    implementation 'com.huawei.hms:ads-vast-player:3.4.44.303'
+    implementation 'com.huawei.hms:ads-vast:3.4.44.303'
 }
