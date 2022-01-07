@@ -20,7 +20,7 @@ public class DemoApplication extends Application {
     public void onCreate() {
         super.onCreate();
         context = getApplicationContext();
-        VastApplication.init(DemoApplication.this, APP_NAME, IS_TEST);
+        VastApplication.init(DemoApplication.this, IS_TEST);
         SdkFactory.userAcceptAdLicense(true);
     }
 
