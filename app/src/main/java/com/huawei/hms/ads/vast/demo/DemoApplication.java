@@ -4,7 +4,6 @@
 
 package com.huawei.hms.ads.vast.demo;
 
-import static com.huawei.hms.ads.vast.demo.Constants.APP_NAME;
 import static com.huawei.hms.ads.vast.demo.Constants.IS_TEST;
 
 import android.app.Application;
