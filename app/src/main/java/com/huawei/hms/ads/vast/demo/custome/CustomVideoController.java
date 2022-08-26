@@ -49,6 +49,7 @@ public class CustomVideoController extends BaseVideoController implements VastPl
     private void initView(Context context) {
         clContent = findViewById(R.id.cl_content);
         btnSkip = findViewById(R.id.demo_bt_skip);
+        btnSkip.setOnClickListener(v -> playNextAdOrFinish());
         btnDetailView = findViewById(R.id.demo_bt_detail);
         btnScreen = findViewById(R.id.demo_bt_full_screen);
         btnPlay = findViewById(R.id.demo_bt_play);
