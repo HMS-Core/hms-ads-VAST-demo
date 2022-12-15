@@ -12,7 +12,7 @@
 
 
 ## 简介
-VAST（Video Ad Serving Template，视频广告服务模板）协议为IAB（Interactive Advertising Bureau，互联网广告署）指定的开放协议。鲸鸿动能广告平台目前仅支持符合VAST协议的线性广告（投放形式为前、中、后贴片广告）。鲸鸿动能广告服务（HUAWEI Ads Kit）VAST协议示例代码向您介绍如何将HUAWEI VAST SDK集成到您的应用中，同时如果您需要使用默认的播放器，请集成HUAWEI Player SDK，实现线性广告的展示。
+VAST（Video Ad Serving Template，视频广告服务模板）协议为IAB（Interactive Advertising Bureau，互联网广告署）指定的开放协议。鲸鸿动能广告平台目前仅支持符合VAST协议的线性广告（投放形式为前、中、后贴片广告）。鲸鸿动能广告服务VAST协议示例代码向您介绍如何将鲸鸿动能VAST SDK集成到您的应用中，同时如果您需要使用默认的播放器，请集成HUAWEI Player SDK，实现线性广告的展示。
 
 ## 安装
 在华为手机上安装该示例代码项目。
@@ -24,7 +24,7 @@ VAST（Video Ad Serving Template，视频广告服务模板）协议为IAB（Int
 在华为手机上安装HMS Core (APK) 5.0.3及以上版本。
 
 ## 示例代码
-鲸鸿动能广告服务VAST协议示例代码向您介绍如何将鲸鸿动能广告VAST SDK集成到您的应用中，同时如果您需要使用默认的播放器，请集成HUAWEI Player SDK，实现线性广告的展示:
+鲸鸿动能广告服务VAST协议示例代码向您介绍如何将鲸鸿动能VAST SDK集成到您的应用中，同时如果您需要使用默认的播放器，请集成HUAWEI Player SDK，实现线性广告的展示:
 
 1). DemoApplication.java
 用于初始化SDK。
