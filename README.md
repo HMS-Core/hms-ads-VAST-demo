@@ -1,4 +1,4 @@
-# HMS Ads Demo for VAST
+# Petal Ads Demo for VAST
 English | [中文](README_ZH.md)
 ## Table of Contents
 
@@ -12,7 +12,7 @@ English | [中文](README_ZH.md)
 
 
 ## Introduction
-The Video Ad Serving Template (VAST) specification is defined and released by the Interactive Advertising Bureau (IAB).Currently, HUAWEI Ads supports only linear ads (pre-roll, mid-roll, and post-roll ads) under this specification.The VAST ad sample code provided by Ads Kit describes how to display linear ads by integrating the HUAWEI VAST SDK into your app. If you want to use the default player, integrate the HUAWEI Player SDK as well.
+The Video Ad Serving Template (VAST) specification is defined and released by the Interactive Advertising Bureau (IAB).Currently, Petal Ads supports only linear ads (pre-roll, mid-roll, and post-roll ads) under this specification.The VAST ad sample code provided by Petal Ads describes how to display linear ads by integrating the Petal Ads VAST SDK into your app. If you want to use the default player, integrate the HUAWEI Player SDK as well.
 
 ## Installation
 Install the program on Huawei Android mobile phones.
@@ -24,7 +24,7 @@ No additional configuration is required.
 HMS Core (APK) 5.0.3 or later has been installed on Huawei Android phones.
 
 ## Sample Code
-The VAST ad sample code provided by Ads Kit describes how to display linear ads by integrating the HUAWEI VAST SDK into your app. If you want to use the default player, integrate the HUAWEI Player SDK as well.
+The VAST ad sample code provided by Petal Ads describes how to display linear ads by integrating the Petal Ads VAST SDK into your app. If you want to use the default player, integrate the HUAWEI Player SDK as well.
 
 1). DemoApplication.java
 Initializing the SDK.
